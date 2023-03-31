@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* -------------First Page Laout----------------- */
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;   
+
+}
+
+.containt{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #FC5C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.containt img{
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+
+.containt h1{
+    font-weight: 100;
+    font-size: 50px;
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+    
+}
+
+.containt p{
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    color:white;
+    font-size: 26px;
+
+}
+
+
+
+@media(max-width: 786px){
+
+    .containt{
+        display: none;
+    }
+
+
+    .login-page{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* background-color: black; */
+        margin: 150px;
+        padding-top: 10px;
+        
+    }
+}
+
+@media screen and (max-width:1024px) {
+  .containt{
+    display: none;
+}
+
+
+.login-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* background-color: black; */
+    margin: 150px;
+    padding-top: 10px;
+    
+}
+  
+}
+
+
+
+
+
+
+
+
+
+/* ---------------Secount Page laout-------------------*/
+
+
+
+
+.login-page{
+    width: 40%;
+    /* height: 100vh; */
+    margin: auto;
+    margin-top: 50px;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.login-page img{
+    height: 40px;
+    margin: 20px;
+}
+
+.login-page p{
+    font-size: 19px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.input-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text input{
+    width: 320px;
+    padding: 10px;
+    margin: 10px;
+}
+.input-text .input-Email{
+    /* background-color: gray; */
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    
+    
+}
+
+.input-Email:focus {
+    outline-color: rgb(5, 117, 223, 0.6);
+  }
+
+
+
+.input-text .input-next{
+    border: none;
+    background-color: #3399cc;
+    color: white;
+    font-size: 15px;
+}
+
+.signed-link{
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    color: #3399cc;
+    font-size: 18px;
+}
+
+
+
+.para p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+.input-create input{
+    width: 320px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+.input-create .input-account{
+    border: none;
+    background-color: white;    
+    border: 1px solid #3399cc;
+    color: #3399cc;
+    font-size: 15px;
+}
+
+
+button{
+    width: 320px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border: 1px solid gray;
+
+}
+
+button:hover{
+    border-color: #3399cc;
+}
+
+
+button i{
+    padding: 10px;
+    
+}
+
+
+.footer-bar p{
+    color: #6A82FB;
+    padding-top: 100px;
+    font-size: 14px;
+}
+
+.signed-link input {
+  margin: 0 5px;
+  
+}
